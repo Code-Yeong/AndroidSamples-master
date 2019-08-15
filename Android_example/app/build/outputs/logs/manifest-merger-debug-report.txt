@@ -1,0 +1,162 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:2:1-22:12
+MERGED from [io.realm:realm-android-library:5.13.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/8c7e9d4fe9f8ca582cbfd0f13033ae56/AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/d13b0073941dc8f3af00ac5192455488/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/ce18f8666534303572483701ff729b15/AndroidManifest.xml:2:1-11:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.3.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/dc7cca294d9e9c516d9477a1acc44443/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/ae017c9ff1efba0f2b8528165a66f4f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/3ba594a87947afdb89159d2eb0c35105/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/adbc9466345bfcdf90f8e353b61f2b9a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/aa12cbe9ead3e9dfe5f7bfa1d062caaa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/e1506aa3c13cc487c641cf198d08f4e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/9ba916b0d14ea705e791756bb37dea4f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/103067c743fe5619e3d106b71083b9c5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/ec5b4b1adba38639405a590e3240eb07/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/74c81ca8ae255a8183d908c2b2dc700d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/8d160403c2f84dd0d8822596c9c624d0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/92c383613d100a5fa305e4862b127747/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/1067a8a21ad29683e12dc9aa8025a5f7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/dde67e3abde9219f90f004de99a62031/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/554d18343d8a75f01fd4f9617e95df34/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/69835b2f3991de7f039f94bc9d654ccd/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/723aa9ca2ac8f45d52d4619df4152894/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/297ab3489d57b4d38c5faa2e217aebbc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/d903ea83fcbb4ec1db9309182cd23e97/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/a97d352fa23286113ee14df716667e21/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/a2f3c2d7c1365325bbe2ed9141e7d754/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/26ffce5ae04cead0d3cef736de150b67/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/cfc49f974773791d11540316756d9143/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/5c31f5430279efdbf336596988ab7cd1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/d817b908dc6f655e4d22252053c4cd62/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/a95c300b26a18697211b735a4a153a00/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:5:5-20:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/ce18f8666534303572483701ff729b15/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/ce18f8666534303572483701ff729b15/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/554d18343d8a75f01fd4f9617e95df34/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/554d18343d8a75f01fd4f9617e95df34/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/69835b2f3991de7f039f94bc9d654ccd/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/69835b2f3991de7f039f94bc9d654ccd/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/554d18343d8a75f01fd4f9617e95df34/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:12:9-40
+	android:name
+		ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:6:9-43
+activity#com.chivan.realmdemo.view.MainActivity
+ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:13:19-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml
+MERGED from [io.realm:realm-android-library:5.13.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/8c7e9d4fe9f8ca582cbfd0f13033ae56/AndroidManifest.xml:6:5-8:41
+MERGED from [io.realm:realm-android-library:5.13.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/8c7e9d4fe9f8ca582cbfd0f13033ae56/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/d13b0073941dc8f3af00ac5192455488/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/d13b0073941dc8f3af00ac5192455488/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/ce18f8666534303572483701ff729b15/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/ce18f8666534303572483701ff729b15/AndroidManifest.xml:5:5-7:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.3.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/dc7cca294d9e9c516d9477a1acc44443/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.3.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/dc7cca294d9e9c516d9477a1acc44443/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/ae017c9ff1efba0f2b8528165a66f4f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/ae017c9ff1efba0f2b8528165a66f4f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/3ba594a87947afdb89159d2eb0c35105/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/3ba594a87947afdb89159d2eb0c35105/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/adbc9466345bfcdf90f8e353b61f2b9a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/adbc9466345bfcdf90f8e353b61f2b9a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/aa12cbe9ead3e9dfe5f7bfa1d062caaa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/aa12cbe9ead3e9dfe5f7bfa1d062caaa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/e1506aa3c13cc487c641cf198d08f4e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/e1506aa3c13cc487c641cf198d08f4e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/9ba916b0d14ea705e791756bb37dea4f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/9ba916b0d14ea705e791756bb37dea4f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/103067c743fe5619e3d106b71083b9c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/103067c743fe5619e3d106b71083b9c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/ec5b4b1adba38639405a590e3240eb07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/ec5b4b1adba38639405a590e3240eb07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/74c81ca8ae255a8183d908c2b2dc700d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/74c81ca8ae255a8183d908c2b2dc700d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/8d160403c2f84dd0d8822596c9c624d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/8d160403c2f84dd0d8822596c9c624d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/92c383613d100a5fa305e4862b127747/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/92c383613d100a5fa305e4862b127747/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/1067a8a21ad29683e12dc9aa8025a5f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/1067a8a21ad29683e12dc9aa8025a5f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/dde67e3abde9219f90f004de99a62031/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/dde67e3abde9219f90f004de99a62031/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/554d18343d8a75f01fd4f9617e95df34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/554d18343d8a75f01fd4f9617e95df34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/69835b2f3991de7f039f94bc9d654ccd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/69835b2f3991de7f039f94bc9d654ccd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/723aa9ca2ac8f45d52d4619df4152894/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/723aa9ca2ac8f45d52d4619df4152894/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/297ab3489d57b4d38c5faa2e217aebbc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/297ab3489d57b4d38c5faa2e217aebbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/d903ea83fcbb4ec1db9309182cd23e97/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/d903ea83fcbb4ec1db9309182cd23e97/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/a97d352fa23286113ee14df716667e21/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/a97d352fa23286113ee14df716667e21/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/a2f3c2d7c1365325bbe2ed9141e7d754/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/a2f3c2d7c1365325bbe2ed9141e7d754/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/26ffce5ae04cead0d3cef736de150b67/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/26ffce5ae04cead0d3cef736de150b67/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/cfc49f974773791d11540316756d9143/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/cfc49f974773791d11540316756d9143/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/5c31f5430279efdbf336596988ab7cd1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/5c31f5430279efdbf336596988ab7cd1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/d817b908dc6f655e4d22252053c4cd62/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/d817b908dc6f655e4d22252053c4cd62/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/a95c300b26a18697211b735a4a153a00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/yeongguo/.gradle/caches/transforms-2/files-2.1/a95c300b26a18697211b735a4a153a00/AndroidManifest.xml:20:5-44
+INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yeongguo/Documents/mygit/Android_example/app/src/main/AndroidManifest.xml

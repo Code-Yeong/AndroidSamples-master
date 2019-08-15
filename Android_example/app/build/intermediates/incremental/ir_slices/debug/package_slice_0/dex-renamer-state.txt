@@ -1,0 +1,4 @@
+#Thu Aug 15 15:57:08 CST 2019
+base.0=/Users/yeongguo/Documents/mygit/Android_example/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
