@@ -1,30 +1,22 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>内嵌式 - 微信扫码登录</title>
-<!-- 引入微信扫码登录js文件 -->
-<script type="text/javascript" src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
-</head>
-<body>
-  <!-- 放置二维码的div -->
-  <div id="login_container"></div>
-</body>
-<script type="text/javascript">
-  setTimeout(function(){
-    var obj = new WxLogin({
-      self_redirect:true,
-      id:"login_container", 
-      appid: "wxbdc5610cc59c1631",
-      scope: "snsapi_login", 
-      redirect_uri: encodeURIComponent("http:///study.qq.com"),
-      state: Math.ceil(Math.random()*1000), 
-      style: "black",
-      href: ""
-    });
-    console.log(window.location.host);
-    window.jsInterface.loginCallback("succed!!!")
-  }, 100);
-</script>
-
-
+<html>
+	<head>
+		<title>扫码登录</title>
+		<script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+	</head>
+	<body>
+		<div id="login_container"></div>
+	</body>
+	<script>
+		 // 1号店示例二维码
+		 var obj = new WxLogin({
+		  self_redirect:false,
+		  id:"login_container", 
+		  appid: "wxbdc5610cc59c1631", 
+		  scope: "snsapi_login", 
+		  redirect_uri: encodeURIComponent("http://"+window.location.host+"/..."), 
+		  state: Math.ceil(Math.random()*1000), 
+		  style: "black",
+		  href: ""
+		});
+	</script>
+</html>

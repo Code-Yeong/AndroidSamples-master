@@ -1,12 +1,11 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>登录成功</title>
+  <title>inf</title>
 </head>
 <body>
-  <!-- 放置二维码的div -->
-  <div id="info"></div>
+<!-- ?~T?置?~L维?| ~A?~Z~Ddiv -->
+<div id="info"></div>
 </body>
 <script type="text/javascript">
   function getQueryVariable(variable){
@@ -20,8 +19,12 @@
     }
     return false;
   }
-  console.log(getQueryVariable("code"));
-  console.log(getQueryVariable("state"));
+  var code = getQueryVariable("code");
+  var state = getQueryVariable("state");
+  if(code === null){
+    window.jsInterface.onDenied(state);
+  }else{
+    window.jsInterface.onAuthorized(code, state);
+  }
+
 </script>
-
-
