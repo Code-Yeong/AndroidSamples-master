@@ -1,4 +1,4 @@
-package com.chivan.scanwechat;
+package com.chivan.login_component;
 
 import java.util.Map;
 
@@ -7,26 +7,7 @@ import java.util.Map;
  * @description: 扫码登录状态回调
  * @date : 2019-09-03 17:06
  */
-public interface IScanCallback {
-
-    /**
-     * 二维码页面初始化完毕
-     */
-    void onReady();
-
-    /**
-     * 扫码成功
-     *
-     * @param data js端参数
-     */
-    void onSuccess(Map<String, Object> data);
-
-    /**
-     * 扫码失败
-     *
-     * @param data js端参数
-     */
-    void onFailed(Map<String, Object> data);
+public interface IJsInterface {
 
     /**
      * 用户已授权
@@ -43,8 +24,4 @@ public interface IScanCallback {
      */
     void onDenied(String state);
 
-    /**
-     * 页面关闭
-     */
-    void onClose();
 }

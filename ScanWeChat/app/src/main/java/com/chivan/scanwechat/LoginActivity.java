@@ -1,34 +1,50 @@
 package com.chivan.scanwechat;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
-public class LoginActivity extends AppCompatActivity {
+import com.chivan.login_component.ILoginCallback;
+import com.chivan.login_component.JsInterfaceImpl;
+import com.chivan.login_component.model.UserInfoModel;
+
+public class LoginActivity extends AppCompatActivity implements ILoginCallback {
 
     public static final String TAG = MainActivity.class.getName();
     private static final String wechatAppId = "wx913f02182754ad93";
     private WebView webView;
+    private BroadcastReceiver receiver;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         initView();
+        initBroadcast();
         initData();
     }
 
+    @Override
+    protected void onDestroy() {
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(receiver);
+        super.onDestroy();
+    }
+
     private void initView() {
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
         webView = findViewById(R.id.web_view);
         final WebSettings webSettings = webView.getSettings();
-        webSettings.setAllowFileAccess(true);
         webSettings.setJavaScriptEnabled(true);
-        webSettings.setAllowUniversalAccessFromFileURLs(true);
-        WebView.setWebContentsDebuggingEnabled(true);
-        webView.addJavascriptInterface(new JsInterface(this), "jsInterface");
+        webSettings.setCacheMode(WebSettings.LOAD_NO_CACHE);
+        webView.addJavascriptInterface(new JsInterfaceImpl(this, this), "jsInterface");
         webView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
@@ -49,5 +65,40 @@ public class LoginActivity extends AppCompatActivity {
 //        String url = "file:///android_asset/web/login.html"; // 注意：asset不能写成了assets
         final String url = "http://wd.chivan.cn/login.html";
         webView.loadUrl(url);
+    }
+
+    private void initBroadcast() {
+        receiver = new LoginBroadcast();
+        IntentFilter filter = new IntentFilter();
+        filter.addAction(JsInterfaceImpl.USER_AUTHORIZED_ACTION);
+        filter.addAction(JsInterfaceImpl.USER_REFUSE_AUTHORIZATION_ACTION);
+        LocalBroadcastManager.getInstance(this).registerReceiver(receiver, filter);
+    }
+
+    private class LoginBroadcast extends BroadcastReceiver {
+        public LoginBroadcast() {
+        }
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if (JsInterfaceImpl.USER_AUTHORIZED_ACTION.equals(intent.getAction())) {
+                Log.d(TAG, "用户已授权");
+                Toast.makeText(LoginActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
+                LoginActivity.this.finish();
+            } else if (JsInterfaceImpl.USER_REFUSE_AUTHORIZATION_ACTION.equals(intent.getAction())) {
+                Log.d(TAG, "用户拒绝了授权");
+                Toast.makeText(LoginActivity.this, "登录失败", Toast.LENGTH_SHORT).show();
+            } else {
+                Log.d(TAG, "未识别的Action");
+                Toast.makeText(LoginActivity.this, "未知错误", Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
+
+    @Override
+    public void onLoginSuccess(UserInfoModel userInfoModel) {
+        Log.d(TAG, "用户信息:" + userInfoModel.toString());
+//        Intent intent = new Intent(this, ProfileActivity)
+        //todo 存储用户信息
     }
 }
