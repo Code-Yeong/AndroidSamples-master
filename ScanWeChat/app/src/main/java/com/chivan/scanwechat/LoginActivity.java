@@ -1,21 +1,27 @@
 package com.chivan.scanwechat;
 
+import android.annotation.TargetApi;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.support.v4.content.LocalBroadcastManager;
-import android.support.v7.app.AppCompatActivity;
+import android.content.pm.PackageInfo;
+import android.content.res.Configuration;
+import android.os.Build;
 import android.os.Bundle;
+import android.util.AttributeSet;
 import android.util.Log;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.chivan.login_component.ILoginCallback;
 import com.chivan.login_component.JsInterfaceImpl;
 import com.chivan.login_component.model.UserInfoModel;
+import com.tencent.smtt.sdk.WebSettings;
+import com.tencent.smtt.sdk.WebView;
+import com.tencent.smtt.sdk.WebViewClient;
 
 public class LoginActivity extends AppCompatActivity implements ILoginCallback {
 
@@ -39,26 +45,28 @@ public class LoginActivity extends AppCompatActivity implements ILoginCallback {
     }
 
     private void initView() {
+//        PackageInfo webViewPackageInfo = WebView.getCurrentWebViewPackage();
+//        Log.d("MY_APP_TAG", "WebView version: " + webViewPackageInfo.versionName);
         setContentView(R.layout.activity_login);
         webView = findViewById(R.id.web_view);
         final WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webSettings.setCacheMode(WebSettings.LOAD_NO_CACHE);
         webView.addJavascriptInterface(new JsInterfaceImpl(this, this), "jsInterface");
-        webView.setWebViewClient(new WebViewClient() {
-            @Override
-            public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                Log.d(TAG, "loading url = " + url);
-                return super.shouldOverrideUrlLoading(view, url);
-            }
-
-            @Override
-            public void onPageFinished(WebView view, String url) {
-                super.onPageFinished(view, url);
-                Log.d(TAG, "finished url = " + url);
-            }
-
-        });
+//        webView.setWebViewClient(new WebViewClient() {
+//            @Override
+//            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+//                Log.d(TAG, "loading url = " + url);
+//                return super.shouldOverrideUrlLoading(view, url);
+//            }
+//
+//            @Override
+//            public void onPageFinished(WebView view, String url) {
+//                super.onPageFinished(view, url);
+//                Log.d(TAG, "finished url = " + url);
+//            }
+//
+//        });
     }
 
     private void initData() {
